@@ -5,7 +5,7 @@ import chaiEnzyme from 'chai-enzyme';
 import { spy } from 'sinon';
 import App from './App';
 
-chai.use(chaiEnzyme())
+chai.use(chaiEnzyme());
 
 describe('the environment', () => {
   it('works, hopefully', () => {
