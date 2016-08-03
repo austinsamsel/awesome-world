@@ -18,7 +18,7 @@ then added in tests
 
 `npm run test`
 
-then eslint (airbnb)
+then more strict linting, eslint/airbnb
 
 `npm run lint`
 
