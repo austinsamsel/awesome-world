@@ -14,7 +14,13 @@ plus React Story Book
 
 `getstorybook`
 
-then added in test set up.
+then added in tests
+
+`npm run test`
+
+then eslint (airbnb)
+
+`npm run lint`
 
 ---
 
