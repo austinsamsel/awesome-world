@@ -16,3 +16,10 @@ Object.keys(document.defaultView).forEach((property) => {
 global.navigator = {
   userAgent: 'node.js'
 };
+
+// Prevent Mocha from compiling resources like css, scss or svg
+function noop() {
+  return null;
+}
+require.extensions['.css'] = noop;
+require.extensions['.svg'] = noop;

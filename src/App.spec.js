@@ -3,7 +3,7 @@ import { shallow } from 'enzyme';
 import chai, { expect } from 'chai';
 import chaiEnzyme from 'chai-enzyme';
 import { spy } from 'sinon';
-// import App from './App';
+import App from './App';
 
 chai.use(chaiEnzyme())
 
