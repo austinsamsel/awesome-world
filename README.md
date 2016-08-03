@@ -1,3 +1,23 @@
+# Awesome World
+
+Quick set up with create-react-app, react story book, and tests with mocha/chai/enzyme.
+
+Create React App
+
+`npm i -g create-react-app `
+
+`create-react-app awesome-world`
+
+plus React Story Book
+
+`npm i -g getstorybook`
+
+`getstorybook`
+
+then added in test set up.
+
+---
+
 Below you will find some information on how to perform common tasks.  
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/template/README.md).
 
