@@ -18,8 +18,8 @@ global.navigator = {
 };
 
 // Prevent Mocha from compiling resources like css, scss or svg
-function noop() {
+function ignore() {
   return null;
 }
-require.extensions['.css'] = noop;
-require.extensions['.svg'] = noop;
+require.extensions['.css'] = ignore;
+require.extensions['.svg'] = ignore;
